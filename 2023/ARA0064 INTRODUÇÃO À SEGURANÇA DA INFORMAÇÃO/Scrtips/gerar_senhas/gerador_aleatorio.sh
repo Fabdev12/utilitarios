@@ -4,7 +4,7 @@
 read -p "Informe o tamanho da senha desejado: " tamanho
 read -p "Deseja incluir letras maiúsculas? (s/n): " maiusculas
 read -p "Deseja incluir letras minúsculas? (s/n): " minusculas
-read -p "Deseja incluir número4. BOAS PRÁTICAS EM SEGURANÇA DA INFORMAÇÃO
+read -p "Deseja incluir número? (s/n): " numeros
 if [[ "$minusculas" =~ ^[sS]$ ]]; then
   opcoes+="abcdefghijklmnopqrstuvwxyz"
 fi
